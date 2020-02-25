@@ -1,0 +1,114 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+  
+  min-height: 100vh;
+  background-color: #e5eeee;
+  transition: all 0.2s ease;
+  
+}
+
+.card {
+  margin: 51px auto 0;
+  
+  width: 400px;
+  height: 500px;
+  box-sizing: border-box; 
+  background-image: url(bg_img.png);
+  background-size: 110% 110%;
+color: white;
+position: relative;
+font-weight: 700;
+letter-spacing: .02em;
+font-family: 'Quicksand';
+font-size: 16px;
+
+}
+
+.shadow {position: absolute;
+bottom: -40px;
+z-index: -1;
+left: -25px;}
+
+
+.card__form {
+  width: 262px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.form__input{
+margin-top: 7px;}
+
+input {
+  width: 261px;
+  height: 42px;
+  background-color: rgba(229, 238, 238, 0);
+  border: 2px solid rgba(191, 185, 204, 0.54);
+}
+
+#keepme {
+  display: block;
+  width: 17px;
+  height: 17px;
+  background-color: #23ae92;
+  float: left;
+  margin-top: 5px;
+}
+
+.lable_checkbox{
+  font-size: 13px;}
+
+
+
+.header {height: 80px;
+  padding-top: 60px;
+  font-size: 18px;
+  letter-spacing: .03em;}
+
+.join_us {margin-left: 10px;}
+
+.div_for_Button {    padding-top: 36px;}
+
+.button {    background-color: #23ae92;
+  color: #fbf6e4;
+  font-size: 18px;
+  font-weight: 700;
+  width: 100%;
+  padding: 9px;
+  border: 2px solid #23ae92;}
+
+  .form__error {
+    color: red;
+    font-size: 12px;
+    visibility: hidden;
+}
+
+.form__input {
+  background: none;
+  border: none;
+  outline: none;
+  width: 100%;
+  border: 2px solid rgba(191, 185, 204, 0.54);
+  color: white;
+  margin: 7px 0 0;
+  padding-left: 10px;
+}
+
+
+.form__input:invalid+.form__error {
+  visibility: visible;
+}
+
+.form__input:focus {border: 2px solid #23ae92 ;}
+.button:hover {background: #e66a64;}
+.button:focus{ border: 2px solid #e66a64;}
+
+.footer {padding-top: 20px;
+  color: #b9b9cc;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: .05em;
+display: flex;
+justify-content: space-between !important;}
+
+.form:hover {text-decoration: underline;}
